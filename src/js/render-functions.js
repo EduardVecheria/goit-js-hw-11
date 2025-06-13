@@ -38,9 +38,9 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-    return document.querySelector('.loader').classList.remove('hidden');
+    return document.querySelector('.load').classList.remove('hidden');
 }
 
 export function hideLoader() {
-  return document.querySelector('.loader').classList.add('hidden');
+  return document.querySelector('.load').classList.add('hidden');
 }
